@@ -152,12 +152,13 @@ html, body { overflow-x: hidden; }
 body { 
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
-    background-color: #333;
-    color: #999;
-    margin: 0;
+    background-color: #fbf9f9
+      
+   
 }
-a { color: #fff; text-decoration: none; }
-a:hover {  color: #9C9; }
+
+a { color: black; text-decoration: none; }
+a:hover {  color: #051967; }
 button { cursor: pointer; }
 a, button { transition: all 0.3s ease; }
 ul {
@@ -182,7 +183,7 @@ span, footer {  line-height: 1.8; }
     display: inline-block;
     border: 1px solid #666;
     background-color: transparent;
-    color: #999;
+    color: #051967;
     padding: 14px 40px;
     font-size: 20px;
 }
@@ -195,7 +196,7 @@ span, footer {  line-height: 1.8; }
 .tm-text-small { font-size: 0.9em; }
 .tm-text-center { text-align: center; }
 .tm-text-right { text-align: right; }
-.tm-text-primary { color: #99CC99; }
+.tm-text-primary { color: #051967; }
 .tm-text-secondary { color: #9999CC; }
 .tm-text-link { color: #999; }
 .tm-text-link:hover { color: #99CC99; }
@@ -288,7 +289,7 @@ span, footer {  line-height: 1.8; }
 }
 
 .tm-nav ul {
-    background-color: #444;
+    background-color:#44444426;
     display: flex;
     justify-content: space-around;
 }
@@ -296,7 +297,7 @@ span, footer {  line-height: 1.8; }
 .nav-item { list-style: none; }
 
 .nav-link {
-    color: #999;
+    color: black;
     padding-top: 40px;
     padding-bottom: 40px;
     display: block;
@@ -305,7 +306,7 @@ span, footer {  line-height: 1.8; }
 
 .nav-link:hover,
 .nav-link.current {
-    color: #99CC99;
+    color: #051967;
 }
 
 /* Introduction ---move to adamStyle.css
