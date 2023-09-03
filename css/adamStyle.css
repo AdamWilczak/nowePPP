@@ -1,0 +1,155 @@
+.tm-media {
+    display: flex;
+    margin-bottom: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tm-media img {
+    width: 40vh;
+    
+}
+
+.tm-media-body {  padding-left: 30px; }
+
+.tm-media-span {
+    margin-bottom: 15px;
+    display: block;
+    text-align: right;
+}
+@media (max-width: 420px) {
+    .tm-media img {
+        width: 100px;
+        height: 100px;
+    }
+
+@media (max-width: 600px) {
+    .tm-row { flex-direction: column; }
+
+    .tm-col {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .tm-media img {
+        width: 150px;
+        height: 150px;
+    }
+}
+}
+
+.zakres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+.txt_zakres{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.button_zakres{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  border: solid 1px;
+  border-color: #99CC99;
+  border-radius: 15px;
+  margin-top: 10px;
+  word-wrap:break-word;
+  text-align: center;
+  
+}
+
+.button_zakres:hover{
+  background-color:#e1e3e7 ;
+  color: var(--blue);
+      
+}
+.button_zakres:nth-child(odd):hover{
+  background-color: #717272;
+}
+
+
+
+.zakres_koment{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.zakres_koment h3{
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.zakres_koment p {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+
+.accordion2 {
+  display: flex;
+  background-color: #8cdef647;
+  
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align:justify;
+  border: none;
+  outline: none;
+  transition: 1s;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+    
+    
+}
+.accordion2:after {
+  content: "+";
+  font-size: 24px;
+  float: right;
+  margin-left: 5px;
+  
+  
+}
+
+.accordion2.active:after {
+  content: "-";
+    
+}
+
+/* animacja na guzikach */
+
+.accordion2.active:hover {
+  background-color:  #99CC99;
+  
+ 
+  
+}
+
+/* panel po otwarciu */
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  line-height: 200%;
+  max-height: 1s ease-out;
+  text-align:justify;
+  font-size: small;
+  
+  
+  
+}
+.panel li {
+  list-style: circle;
+      
+  
+}
+
